@@ -13,3 +13,7 @@
 ## Important topics
 ---
 ## Action Items
+| Syntax | Description |
+| --- | --- |
+| Header | Title |
+| Paragraph | Text |
