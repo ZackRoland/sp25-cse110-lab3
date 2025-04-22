@@ -2,18 +2,23 @@
 ---
 ## Date/Time
 ---
-## Participants
+## Attendance
 ---
+| Participants | Present |
+| :---: | :---: |
+| Name | [x] |
+
 ## Meeting type
 ---
 ## Materials
 ---
-## Goals and progress
+## Learning Outcomes
 ---
+| Goals | Progress |
+| :--- | :---: |
+| Header | Title |
+| Paragraph | Text |
+
 ## Important topics
 ---
 ## Action Items
-| Syntax | Description |
-| --- | --- |
-| Header | Title |
-| Paragraph | Text |
