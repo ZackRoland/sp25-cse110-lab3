@@ -6,7 +6,7 @@
 ---
 | Participants | Present |
 | :---: | :---: |
-| Name | [x] |
+| Zack Roland | - [x] |
 
 ## Meeting type
 ---
