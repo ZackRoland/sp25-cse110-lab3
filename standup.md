@@ -19,4 +19,4 @@
 ---
 > **_Note 1:_** Very productive, was able to complete standup page in an efficent manner
 
-> **_Note 1:_** Got to practice issues and pull requests
+> **_Note 2:_** Got to practice issues and pull requests
