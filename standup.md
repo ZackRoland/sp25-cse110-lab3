@@ -11,7 +11,7 @@
 
 ## Learning Outcomes
 
-| Goals | Progress |
+| Goals | Status |
 | :--- | :---: |
 | Create a standup page | complete |
 
