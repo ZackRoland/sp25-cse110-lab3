@@ -1,2 +1,2 @@
 # LAB 3
-[Lab 3 Page](http://127.0.0.1:5500)
+[Lab 3 Page](https://zackroland.github.io/sp25-cse110-lab3/)
