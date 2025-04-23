@@ -1,24 +1,17 @@
-# Title: Daily Standup
+# Daily Standup
 ---
 ## Date/Time
 ---
-## Attendance
----
+### Attendance
 | Participants | Present |
 | :---: | :---: |
 | Zack Roland | - [x] |
 
-## Meeting type
----
-## Materials
----
 ## Learning Outcomes
 ---
 | Goals | Progress |
 | :--- | :---: |
-| Header | Title |
-| Paragraph | Text |
-
-## Important topics
+| Goal | Title |
+## Meeting Takeaway
 ---
-## Action Items
+> **_Note:_** content
