@@ -6,7 +6,7 @@
 
 | Participants | Present |
 | :---: | :---: |
-| Zack Roland | - [x] |
+| Zack Roland | - [ x ] |
 
 ## Learning Outcomes
 ---
