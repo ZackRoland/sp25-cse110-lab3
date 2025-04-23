@@ -1,3 +1,230 @@
-.body {
-    background-color: aliceblue;
+:root {
+    --primary-accent:#4F517D;
 }
+header {
+    position: relative;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: azure; /* Changes background color of body page*/
+}
+#title {
+    font-size:70px;
+    background-color: aquamarine;
+    color: navy; /* changes color of the h1 text*/
+    outline: 8px solid black;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 4vw;         /* relative */
+    padding: 2rem;          /* relative */
+    margin-top: 5vh;        /* relative */
+    outline: 8px solid black; /* absolute px */
+  }
+
+h2 {
+    color: var(--primary-accent, black);
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 50px;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    text-decoration:underline;
+}
+
+  
+#directory {
+    background-color: #4281A4;
+    margin: 40px auto 40px auto;
+    max-height: max-content;
+    max-width: max-content;
+    position: absolute;
+    left: 75px;
+    align-content: left;
+    outline: 8px solid black;
+    
+}
+/*
+#directory {
+    background-color: azure;
+    outline: 4px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto 40px auto;
+    width: 90%;
+    box-sizing: border-box;
+  }
+*/ 
+/*  
+#directory ul {
+    list-style-type: disc;
+    padding-left: 100px;
+    font-size: 25px;
+    margin: 0;
+    text-align: left;
+    
+}
+*/
+#directory ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    font-size: 30px;
+    margin: 0;
+    text-align: left;
+}
+#directory li {
+    display: inline-block;
+    margin-right: 20px;
+}  
+
+
+  
+
+#media {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%; /* Make table fill 90% of the page width */
+    margin: auto; /* Center it horizontally */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Optional: a soft shadow */
+    background-color: white;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+#media td, #media th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center; /* Center the contents in each cell */
+}
+
+#media tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#media tr:hover {
+    background-color: #e0f0ff;
+}
+
+#media th {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Media styling */
+
+.media {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: 200px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+  
+section, div, details {
+    margin-bottom: 30px;
+}
+nav ul li a {
+    color: navy;
+}
+  
+section + section {
+    border-top: 2px dashed white;
+}
+section:has(ol) {
+    background-color: #e9f7ff;
+    padding: 10px;
+  }
+  
+#agenda ol li {
+    font-style: italic;
+}
+    
+form label, form input, form select, form textarea {
+    display: block;
+    margin: 10px 0;
+}
+/*#attendance-table {
+    position: absolute;
+    left: 75px;
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    padding: 10%;
+  }
+*/
+#attendance-table {
+    width: 90%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+#attendance-table th, #attendance-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+#agenda {
+    margin: 50px auto;
+}
+#outcomes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+footer {
+    position: static;
+    padding: 25px 40px;
+} 
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+  
+fieldset {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+  
+.hidden {
+    display: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+button:active {
+    background-color: green;
+}
+  
+  
+
+@media screen and (max-width: 768px) {
+    main {
+      grid-template-columns: 1fr; /* stack vertically */
+    }
+  
+    #title {
+      font-size: 40px;
+      padding: 10px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  }
+  
