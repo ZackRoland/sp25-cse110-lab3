@@ -1,20 +1,21 @@
-# Daily Standup
+# Team Cache Me Outside's Daily Standup
 ---
-## Date/Time
----
+## Tuesday April 22, 2025
 ### Attendance
 
 | Participants | Present |
 | :---: | :---: |
 | Zack Roland | ✔️ |
 
+## Word of the Day: Artsy
+
 ## Learning Outcomes
----
 
 | Goals | Progress |
 | :--- | :---: |
-| Goal | Title |
+| Create a standup page | complete |
 
-## Meeting Takeaway
+## Takeaway's
 ---
-> **_Note:_** content
+> **_Note 1:_** Very productive, was able to complete standup page in an efficent manner
+> **_Note 1:_** Got to practice issues and pull requests
